@@ -7,13 +7,13 @@ from requests.models import Response
 
 client = commands.Bot(command_prefix="!")
 
-f = open(r'G:\Desktop Folders\Stella\Rules.txt')
+f = open(r'Rules.txt')
 rules = f.readlines()
 
 #Load API KEY from json file (One secure way. Dont just put your key in script)
-with open("G:/Desktop Folders/Stella/token.json", "r") as file:
+with open("token.json", "r") as file:
     API_KEY = load(file)["youtube_key"]
-with open("G:/Desktop Folders/Stella/token.json", "r") as file:
+with open("token.json", "r") as file:
     WEATHER_KEY = load(file)["weather_key"]
 
 
