@@ -177,4 +177,4 @@ def weather(city):
   #   voice.stop()
 
 
-client.run('ODY0MTQ3NzYyNTEyOTIwNTc2.YOxOUQ.ZCQcfbk7bqPsrqxwzQs_F1qcGSY')
+client.run('ODY0MTQ3NzYyNTEyOTIwNTc2.YOxOUQ.6sfPOUC_0XSxt-00CH0XPnVSTiI')
