@@ -4,7 +4,6 @@ from googleapiclient.discovery import build
 import requests
 from json import load
 from requests.models import Response
-import os
 
 client = commands.Bot(command_prefix="!")
 
